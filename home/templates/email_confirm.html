@@ -1,0 +1,9 @@
+{% autoescape off%}
+
+welcome to my blog
+hello {{name}}
+
+pls confirm your email by clicking on this link 
+ confirmation link http://{{domain}} {% url 'activate' uid64=uid token=token%}
+ 
+{% endautoescape %}
